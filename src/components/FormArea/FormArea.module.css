@@ -1,0 +1,14 @@
+
+.form{
+    display: flex;
+    gap: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 22px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+@media (max-width: 769px){
+    .form{
+        flex-direction: column;
+    }
+}

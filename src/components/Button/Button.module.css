@@ -1,0 +1,30 @@
+.btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.sm{
+    padding: 8px 12px;
+    font-size: 0.8rem;
+}
+
+.md{
+    padding: 10px 16px;
+    font-size: 0.9rem;
+}
+
+.lg{
+    padding: 14px 20px;
+    font-size: 1rem;
+}
+
+.primary {
+    background: #7c3aed;
+    color: #fff;
+}
+
+.primary:hover{
+    background: #6e28d9;
+}
