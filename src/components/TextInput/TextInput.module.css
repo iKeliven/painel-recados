@@ -4,7 +4,8 @@
     border: 1px solid #cccccc;
     border-radius: 16px;
     transition: 0.2s;
-    width: 100%;
+    width: 85%;
+    padding: 10px 20px;
     color: #101828;
     font-size: 0.9rem;
     outline: none;
@@ -12,6 +13,6 @@
 
 .input:focus{
     background: #fff;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 

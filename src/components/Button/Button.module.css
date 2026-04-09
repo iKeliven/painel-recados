@@ -28,3 +28,17 @@
 .primary:hover{
     background: #6e28d9;
 }
+
+.warning{
+    background: #f5960b;
+    color: #fff;
+}
+
+.danger{
+    background: #ef4444;
+    color: #fff;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

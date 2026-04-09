@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 22px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 70vw;
+    padding: 20px;
+    justify-content: center;
+}
+
+.important{
+    border-color: orange; 
+}
+
+.card p{
+    text-align: left;
+}
+
+.actions{
+    display: flex;
+    gap: 10px;
+}
+
+.card span{
+    border-radius: 999px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    background: #fff4db;
+    border: 1px solid orange;
+    font-size: 0.7rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}

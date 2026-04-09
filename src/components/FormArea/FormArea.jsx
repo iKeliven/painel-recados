@@ -18,7 +18,7 @@ export default function FormArea({
     }
 
     return (
-        <form className="form"
+        <form className={styles.form}
             onSubmit={handleSubmit}>
             <TextInput
                 value={newText}
@@ -26,9 +26,9 @@ export default function FormArea({
                 placeholder={placeholder}
             />
 
-            <Button
-                type="submit"
-            >{buttonLabel}</Button>
+            <Button type="submit">
+                {buttonLabel}
+            </Button>
         </form>
     )
 }

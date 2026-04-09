@@ -7,12 +7,11 @@ export default function Button({
     size = "md",
     onClick,
 }) {
-
     return (
         <button
             type={type}
             onClick={onClick}
-            className={styles.btn}
+            className={`${styles.btn} ${styles[size]} ${styles[bgColor]}`}
         >
             {children}
         </button>
